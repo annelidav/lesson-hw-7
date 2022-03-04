@@ -1,0 +1,73 @@
+.product {
+  box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.11);
+  max-width: 263px;
+  padding: 20px;
+  transition: transform 0.3s;
+  margin-top: 20px;
+}
+.product:hover {
+  transform: scale(1.05);
+}
+.product__name {
+  margin-bottom: 12px;
+}
+.product__description {
+  margin-bottom: 9px;
+  font-size: 11px;
+  line-height: 13px;
+}
+.product__price {
+  margin-bottom: 15px;
+}
+.product__prices {
+  display: flex;
+  flex-direction: row;
+}
+.product__price-old {
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: line-through;
+  color: #cccccc;
+  padding-top: 3px;
+  padding-left: 7px;
+}
+.product__like {
+  display: block;
+  margin-left: auto;
+  width: min-content;
+  background: none;
+  border: none;
+  padding: 5px;
+  margin-right: -10px;
+  margin-top: -5px;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+.product__like:focus {
+  outline: none;
+  color: rgba(255, 0, 0, 0.7);
+}
+.product__like:hover {
+  color: rgba(255, 0, 0, 0.7);
+}
+.product__percent {
+  display: flex;
+  justify-content: center;
+  width: min-content;
+  background: none;
+  border: none;
+  margin-top: -21px;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+.product__percent-value {
+  padding-left: 7px;
+}
+.product__image {
+  margin: 38px 12px 54px;
+  width: calc(100% - 24px);
+}
+
+.product__button {
+  margin-bottom: 20px;
+}

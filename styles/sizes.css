@@ -1,0 +1,22 @@
+.sizes__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sizes__title {
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 14px;
+}
+.sizes__dimention-name {
+  font-size: 9px;
+  line-height: 11px;
+  text-transform: uppercase;
+}
+.sizes__dimention-value {
+  font-size: 9px;
+  line-height: 11px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
