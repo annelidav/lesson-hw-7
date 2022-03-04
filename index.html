@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/product-card.css" />
+    <link rel="stylesheet" href="/styles/sizes.css" />
+    <link rel="stylesheet" href="/styles/button.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Open+Sans&family=Raleway&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="product">
+        <button class="product__like">
+          <svg
+            width="19"
+            height="17"
+            viewBox="0 0 19 17"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.75 16L9.39645 16.3536C9.59171 16.5488 9.90829 16.5488 10.1036 16.3536L9.75 16ZM2.29442 8.54442L1.94086 8.89797H1.94086L2.29442 8.54442ZM8.54442 2.29442L8.19086 2.64797V2.64797L8.54442 2.29442ZM9.75 3.5L9.39645 3.85355C9.59171 4.04882 9.90829 4.04882 10.1036 3.85355L9.75 3.5ZM10.9556 2.29442L10.602 1.94086V1.94086L10.9556 2.29442ZM10.1036 15.6464L2.64797 8.19086L1.94086 8.89797L9.39645 16.3536L10.1036 15.6464ZM16.852 8.19086L9.39645 15.6464L10.1036 16.3536L17.5591 8.89797L16.852 8.19086ZM8.19086 2.64797L9.39645 3.85355L10.1036 3.14645L8.89797 1.94086L8.19086 2.64797ZM10.1036 3.85355L11.3091 2.64797L10.602 1.94086L9.39645 3.14645L10.1036 3.85355ZM14.0806 0.5C12.7759 0.5 11.5246 1.01829 10.602 1.94086L11.3091 2.64797C12.0442 1.91294 13.0411 1.5 14.0806 1.5V0.5ZM18 5.41942C18 6.45891 17.5871 7.45583 16.852 8.19086L17.5591 8.89797C18.4817 7.9754 19 6.72413 19 5.41942H18ZM19 5.41942C19 2.7025 16.7975 0.5 14.0806 0.5V1.5C16.2452 1.5 18 3.25478 18 5.41942H19ZM5.41942 1.5C6.45891 1.5 7.45583 1.91294 8.19086 2.64797L8.89797 1.94086C7.9754 1.01829 6.72413 0.5 5.41942 0.5V1.5ZM1.5 5.41942C1.5 3.25478 3.25478 1.5 5.41942 1.5V0.5C2.7025 0.5 0.5 2.7025 0.5 5.41942H1.5ZM2.64797 8.19086C1.91294 7.45583 1.5 6.45891 1.5 5.41942H0.5C0.5 6.72413 1.01829 7.9754 1.94086 8.89797L2.64797 8.19086Z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <img src="/img/chair1.png" alt="Chair" class="product__image" />
+        <div class="product__info">
+          <h2 class="product__name">Валенсия Beige</h2>
+          <p class="product__description">Барные стулья</p>
+          <p class="product__price">2 300₽</p>
+
+          <div class="product__sizes sizes">
+            <h3 class="sizes__title">Размеры</h3>
+            <div class="sizes__row">
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Ширина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Глубина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Высота</p>
+                <p class="sizes__dimention-value">77см</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="product__button button">Добавить в корзину</button>
+      </div>
+      <div class="product">
+        <button class="product__like">
+          <svg
+            width="19"
+            height="17"
+            viewBox="0 0 19 17"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.75 16L9.39645 16.3536C9.59171 16.5488 9.90829 16.5488 10.1036 16.3536L9.75 16ZM2.29442 8.54442L1.94086 8.89797H1.94086L2.29442 8.54442ZM8.54442 2.29442L8.19086 2.64797V2.64797L8.54442 2.29442ZM9.75 3.5L9.39645 3.85355C9.59171 4.04882 9.90829 4.04882 10.1036 3.85355L9.75 3.5ZM10.9556 2.29442L10.602 1.94086V1.94086L10.9556 2.29442ZM10.1036 15.6464L2.64797 8.19086L1.94086 8.89797L9.39645 16.3536L10.1036 15.6464ZM16.852 8.19086L9.39645 15.6464L10.1036 16.3536L17.5591 8.89797L16.852 8.19086ZM8.19086 2.64797L9.39645 3.85355L10.1036 3.14645L8.89797 1.94086L8.19086 2.64797ZM10.1036 3.85355L11.3091 2.64797L10.602 1.94086L9.39645 3.14645L10.1036 3.85355ZM14.0806 0.5C12.7759 0.5 11.5246 1.01829 10.602 1.94086L11.3091 2.64797C12.0442 1.91294 13.0411 1.5 14.0806 1.5V0.5ZM18 5.41942C18 6.45891 17.5871 7.45583 16.852 8.19086L17.5591 8.89797C18.4817 7.9754 19 6.72413 19 5.41942H18ZM19 5.41942C19 2.7025 16.7975 0.5 14.0806 0.5V1.5C16.2452 1.5 18 3.25478 18 5.41942H19ZM5.41942 1.5C6.45891 1.5 7.45583 1.91294 8.19086 2.64797L8.89797 1.94086C7.9754 1.01829 6.72413 0.5 5.41942 0.5V1.5ZM1.5 5.41942C1.5 3.25478 3.25478 1.5 5.41942 1.5V0.5C2.7025 0.5 0.5 2.7025 0.5 5.41942H1.5ZM2.64797 8.19086C1.91294 7.45583 1.5 6.45891 1.5 5.41942H0.5C0.5 6.72413 1.01829 7.9754 1.94086 8.89797L2.64797 8.19086Z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <img src="/img/chair.png" alt="Chair" class="product__image" />
+        <div class="product__info">
+          <h2 class="product__name">Толикс-2 White Gloss</h2>
+          <p class="product__description">Барные стулья</p>
+          <p class="product__price">4 690₽</p>
+          <div class="product__sizes sizes">
+            <h3 class="sizes__title">Размеры</h3>
+            <div class="sizes__row">
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Ширина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Глубина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Высота</p>
+                <p class="sizes__dimention-value">77см</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="product__button button">Добавить в корзину</button>
+      </div>
+      <div class="product">
+        <button class="product__like">
+          <svg
+            width="19"
+            height="17"
+            viewBox="0 0 19 17"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.75 16L9.39645 16.3536C9.59171 16.5488 9.90829 16.5488 10.1036 16.3536L9.75 16ZM2.29442 8.54442L1.94086 8.89797H1.94086L2.29442 8.54442ZM8.54442 2.29442L8.19086 2.64797V2.64797L8.54442 2.29442ZM9.75 3.5L9.39645 3.85355C9.59171 4.04882 9.90829 4.04882 10.1036 3.85355L9.75 3.5ZM10.9556 2.29442L10.602 1.94086V1.94086L10.9556 2.29442ZM10.1036 15.6464L2.64797 8.19086L1.94086 8.89797L9.39645 16.3536L10.1036 15.6464ZM16.852 8.19086L9.39645 15.6464L10.1036 16.3536L17.5591 8.89797L16.852 8.19086ZM8.19086 2.64797L9.39645 3.85355L10.1036 3.14645L8.89797 1.94086L8.19086 2.64797ZM10.1036 3.85355L11.3091 2.64797L10.602 1.94086L9.39645 3.14645L10.1036 3.85355ZM14.0806 0.5C12.7759 0.5 11.5246 1.01829 10.602 1.94086L11.3091 2.64797C12.0442 1.91294 13.0411 1.5 14.0806 1.5V0.5ZM18 5.41942C18 6.45891 17.5871 7.45583 16.852 8.19086L17.5591 8.89797C18.4817 7.9754 19 6.72413 19 5.41942H18ZM19 5.41942C19 2.7025 16.7975 0.5 14.0806 0.5V1.5C16.2452 1.5 18 3.25478 18 5.41942H19ZM5.41942 1.5C6.45891 1.5 7.45583 1.91294 8.19086 2.64797L8.89797 1.94086C7.9754 1.01829 6.72413 0.5 5.41942 0.5V1.5ZM1.5 5.41942C1.5 3.25478 3.25478 1.5 5.41942 1.5V0.5C2.7025 0.5 0.5 2.7025 0.5 5.41942H1.5ZM2.64797 8.19086C1.91294 7.45583 1.5 6.45891 1.5 5.41942H0.5C0.5 6.72413 1.01829 7.9754 1.94086 8.89797L2.64797 8.19086Z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <div class="product__percent">
+          <svg
+            width="19"
+            height="19"
+            viewBox="0 0 19 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6.46429 7.07143H7.67857M11.3214 11.9286H12.5357M12.5357 6.46429L6.46429 12.5357M8.65177 1.35135L7.28081 2.7223C7.05585 2.94727 6.75073 3.07365 6.43258 3.07365H4.27324C3.61073 3.07365 3.07365 3.61073 3.07365 4.27324V6.43258C3.07365 6.75073 2.94727 7.05585 2.7223 7.28081L1.35135 8.65177C0.882883 9.12023 0.882883 9.87977 1.35135 10.3482L2.7223 11.7192C2.94727 11.9442 3.07365 12.2493 3.07365 12.5674V14.7268C3.07365 15.3893 3.61073 15.9263 4.27324 15.9263H6.43258C6.75073 15.9263 7.05585 16.0527 7.28081 16.2777L8.65177 17.6486C9.12023 18.1171 9.87977 18.1171 10.3482 17.6486L11.7192 16.2777C11.9442 16.0527 12.2493 15.9263 12.5674 15.9263H14.7268C15.3893 15.9263 15.9263 15.3893 15.9263 14.7268V12.5674C15.9263 12.2493 16.0527 11.9442 16.2777 11.7192L17.6486 10.3482C18.1171 9.87977 18.1171 9.12023 17.6486 8.65177L16.2777 7.28081C16.0527 7.05585 15.9263 6.75073 15.9263 6.43258V4.27324C15.9263 3.61073 15.3893 3.07365 14.7268 3.07365H12.5674C12.2493 3.07365 11.9442 2.94727 11.7192 2.7223L10.3482 1.35135C9.87977 0.882883 9.12023 0.882883 8.65177 1.35135Z"
+              stroke="#E92D2D"
+            />
+          </svg>
+          <p class="product__percent-value">-25%</p>
+        </div>
+        <img src="/img/sofayellow.png" alt="Chair" class="product__image" />
+        <div class="product__info">
+          <h2 class="product__name">Динс Velvet Yellow</h2>
+          <p class="product__description">Диваны</p>
+          <div class="product__prices">
+            <p class="product__price">28 490₽</p>
+            <p class="product__price-old">37 990₽</p>
+          </div>
+          <div class="product__sizes sizes">
+            <h3 class="sizes__title">Размеры</h3>
+            <div class="sizes__row">
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Ширина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Глубина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Высота</p>
+                <p class="sizes__dimention-value">77см</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="product__button button">Добавить в корзину</button>
+      </div>
+      <div class="product">
+        <button class="product__like">
+          <svg
+            width="19"
+            height="17"
+            viewBox="0 0 19 17"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.75 16L9.39645 16.3536C9.59171 16.5488 9.90829 16.5488 10.1036 16.3536L9.75 16ZM2.29442 8.54442L1.94086 8.89797H1.94086L2.29442 8.54442ZM8.54442 2.29442L8.19086 2.64797V2.64797L8.54442 2.29442ZM9.75 3.5L9.39645 3.85355C9.59171 4.04882 9.90829 4.04882 10.1036 3.85355L9.75 3.5ZM10.9556 2.29442L10.602 1.94086V1.94086L10.9556 2.29442ZM10.1036 15.6464L2.64797 8.19086L1.94086 8.89797L9.39645 16.3536L10.1036 15.6464ZM16.852 8.19086L9.39645 15.6464L10.1036 16.3536L17.5591 8.89797L16.852 8.19086ZM8.19086 2.64797L9.39645 3.85355L10.1036 3.14645L8.89797 1.94086L8.19086 2.64797ZM10.1036 3.85355L11.3091 2.64797L10.602 1.94086L9.39645 3.14645L10.1036 3.85355ZM14.0806 0.5C12.7759 0.5 11.5246 1.01829 10.602 1.94086L11.3091 2.64797C12.0442 1.91294 13.0411 1.5 14.0806 1.5V0.5ZM18 5.41942C18 6.45891 17.5871 7.45583 16.852 8.19086L17.5591 8.89797C18.4817 7.9754 19 6.72413 19 5.41942H18ZM19 5.41942C19 2.7025 16.7975 0.5 14.0806 0.5V1.5C16.2452 1.5 18 3.25478 18 5.41942H19ZM5.41942 1.5C6.45891 1.5 7.45583 1.91294 8.19086 2.64797L8.89797 1.94086C7.9754 1.01829 6.72413 0.5 5.41942 0.5V1.5ZM1.5 5.41942C1.5 3.25478 3.25478 1.5 5.41942 1.5V0.5C2.7025 0.5 0.5 2.7025 0.5 5.41942H1.5ZM2.64797 8.19086C1.91294 7.45583 1.5 6.45891 1.5 5.41942H0.5C0.5 6.72413 1.01829 7.9754 1.94086 8.89797L2.64797 8.19086Z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <img src="/img/sofablue.png" alt="Chair" class="product__image" />
+        <div class="product__info">
+          <h2 class="product__name">Кускен Navy Blue</h2>
+          <p class="product__description">Диваны</p>
+          <p class="product__price">2 300₽</p>
+
+          <div class="product__sizes sizes">
+            <h3 class="sizes__title">Размеры</h3>
+            <div class="sizes__row">
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Ширина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Глубина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Высота</p>
+                <p class="sizes__dimention-value">77см</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="product__button button">Добавить в корзину</button>
+      </div>
+      <div class="product">
+        <button class="product__like">
+          <svg
+            width="19"
+            height="17"
+            viewBox="0 0 19 17"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.75 16L9.39645 16.3536C9.59171 16.5488 9.90829 16.5488 10.1036 16.3536L9.75 16ZM2.29442 8.54442L1.94086 8.89797H1.94086L2.29442 8.54442ZM8.54442 2.29442L8.19086 2.64797V2.64797L8.54442 2.29442ZM9.75 3.5L9.39645 3.85355C9.59171 4.04882 9.90829 4.04882 10.1036 3.85355L9.75 3.5ZM10.9556 2.29442L10.602 1.94086V1.94086L10.9556 2.29442ZM10.1036 15.6464L2.64797 8.19086L1.94086 8.89797L9.39645 16.3536L10.1036 15.6464ZM16.852 8.19086L9.39645 15.6464L10.1036 16.3536L17.5591 8.89797L16.852 8.19086ZM8.19086 2.64797L9.39645 3.85355L10.1036 3.14645L8.89797 1.94086L8.19086 2.64797ZM10.1036 3.85355L11.3091 2.64797L10.602 1.94086L9.39645 3.14645L10.1036 3.85355ZM14.0806 0.5C12.7759 0.5 11.5246 1.01829 10.602 1.94086L11.3091 2.64797C12.0442 1.91294 13.0411 1.5 14.0806 1.5V0.5ZM18 5.41942C18 6.45891 17.5871 7.45583 16.852 8.19086L17.5591 8.89797C18.4817 7.9754 19 6.72413 19 5.41942H18ZM19 5.41942C19 2.7025 16.7975 0.5 14.0806 0.5V1.5C16.2452 1.5 18 3.25478 18 5.41942H19ZM5.41942 1.5C6.45891 1.5 7.45583 1.91294 8.19086 2.64797L8.89797 1.94086C7.9754 1.01829 6.72413 0.5 5.41942 0.5V1.5ZM1.5 5.41942C1.5 3.25478 3.25478 1.5 5.41942 1.5V0.5C2.7025 0.5 0.5 2.7025 0.5 5.41942H1.5ZM2.64797 8.19086C1.91294 7.45583 1.5 6.45891 1.5 5.41942H0.5C0.5 6.72413 1.01829 7.9754 1.94086 8.89797L2.64797 8.19086Z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <img src="/img/sofagrey.png" alt="Sofa Grey" class="product__image" />
+        <div class="product__info">
+          <h2 class="product__name">Шерона Barhat Grey</h2>
+          <p class="product__description">Двухспальные кровати</p>
+          <p class="product__price">21 990₽</p>
+          <div class="product__sizes sizes">
+            <h3 class="sizes__title">Размеры</h3>
+            <div class="sizes__row">
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Ширина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Глубина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Высота</p>
+                <p class="sizes__dimention-value">77см</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="product__button button">Добавить в корзину</button>
+      </div>
+      <div class="product">
+        <button class="product__like">
+          <svg
+            width="19"
+            height="17"
+            viewBox="0 0 19 17"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.75 16L9.39645 16.3536C9.59171 16.5488 9.90829 16.5488 10.1036 16.3536L9.75 16ZM2.29442 8.54442L1.94086 8.89797H1.94086L2.29442 8.54442ZM8.54442 2.29442L8.19086 2.64797V2.64797L8.54442 2.29442ZM9.75 3.5L9.39645 3.85355C9.59171 4.04882 9.90829 4.04882 10.1036 3.85355L9.75 3.5ZM10.9556 2.29442L10.602 1.94086V1.94086L10.9556 2.29442ZM10.1036 15.6464L2.64797 8.19086L1.94086 8.89797L9.39645 16.3536L10.1036 15.6464ZM16.852 8.19086L9.39645 15.6464L10.1036 16.3536L17.5591 8.89797L16.852 8.19086ZM8.19086 2.64797L9.39645 3.85355L10.1036 3.14645L8.89797 1.94086L8.19086 2.64797ZM10.1036 3.85355L11.3091 2.64797L10.602 1.94086L9.39645 3.14645L10.1036 3.85355ZM14.0806 0.5C12.7759 0.5 11.5246 1.01829 10.602 1.94086L11.3091 2.64797C12.0442 1.91294 13.0411 1.5 14.0806 1.5V0.5ZM18 5.41942C18 6.45891 17.5871 7.45583 16.852 8.19086L17.5591 8.89797C18.4817 7.9754 19 6.72413 19 5.41942H18ZM19 5.41942C19 2.7025 16.7975 0.5 14.0806 0.5V1.5C16.2452 1.5 18 3.25478 18 5.41942H19ZM5.41942 1.5C6.45891 1.5 7.45583 1.91294 8.19086 2.64797L8.89797 1.94086C7.9754 1.01829 6.72413 0.5 5.41942 0.5V1.5ZM1.5 5.41942C1.5 3.25478 3.25478 1.5 5.41942 1.5V0.5C2.7025 0.5 0.5 2.7025 0.5 5.41942H1.5ZM2.64797 8.19086C1.91294 7.45583 1.5 6.45891 1.5 5.41942H0.5C0.5 6.72413 1.01829 7.9754 1.94086 8.89797L2.64797 8.19086Z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <img src="/img/buffet.png" alt="Buffet" class="product__image" />
+        <div class="product__info">
+          <h2 class="product__name">Авиньон-1</h2>
+          <p class="product__description">Буфеты</p>
+          <p class="product__price">18 990₽</p>
+          <div class="product__sizes sizes">
+            <h3 class="sizes__title">Размеры</h3>
+            <div class="sizes__row">
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Ширина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Глубина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Высота</p>
+                <p class="sizes__dimention-value">77см</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="product__button button">Добавить в корзину</button>
+      </div>
+      <div class="product">
+        <button class="product__like">
+          <svg
+            width="19"
+            height="17"
+            viewBox="0 0 19 17"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.75 16L9.39645 16.3536C9.59171 16.5488 9.90829 16.5488 10.1036 16.3536L9.75 16ZM2.29442 8.54442L1.94086 8.89797H1.94086L2.29442 8.54442ZM8.54442 2.29442L8.19086 2.64797V2.64797L8.54442 2.29442ZM9.75 3.5L9.39645 3.85355C9.59171 4.04882 9.90829 4.04882 10.1036 3.85355L9.75 3.5ZM10.9556 2.29442L10.602 1.94086V1.94086L10.9556 2.29442ZM10.1036 15.6464L2.64797 8.19086L1.94086 8.89797L9.39645 16.3536L10.1036 15.6464ZM16.852 8.19086L9.39645 15.6464L10.1036 16.3536L17.5591 8.89797L16.852 8.19086ZM8.19086 2.64797L9.39645 3.85355L10.1036 3.14645L8.89797 1.94086L8.19086 2.64797ZM10.1036 3.85355L11.3091 2.64797L10.602 1.94086L9.39645 3.14645L10.1036 3.85355ZM14.0806 0.5C12.7759 0.5 11.5246 1.01829 10.602 1.94086L11.3091 2.64797C12.0442 1.91294 13.0411 1.5 14.0806 1.5V0.5ZM18 5.41942C18 6.45891 17.5871 7.45583 16.852 8.19086L17.5591 8.89797C18.4817 7.9754 19 6.72413 19 5.41942H18ZM19 5.41942C19 2.7025 16.7975 0.5 14.0806 0.5V1.5C16.2452 1.5 18 3.25478 18 5.41942H19ZM5.41942 1.5C6.45891 1.5 7.45583 1.91294 8.19086 2.64797L8.89797 1.94086C7.9754 1.01829 6.72413 0.5 5.41942 0.5V1.5ZM1.5 5.41942C1.5 3.25478 3.25478 1.5 5.41942 1.5V0.5C2.7025 0.5 0.5 2.7025 0.5 5.41942H1.5ZM2.64797 8.19086C1.91294 7.45583 1.5 6.45891 1.5 5.41942H0.5C0.5 6.72413 1.01829 7.9754 1.94086 8.89797L2.64797 8.19086Z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <img src="/img/dresser.png" alt="Dresser" class="product__image" />
+        <div class="product__info">
+          <h2 class="product__name">Стелла Дуб Сонома</h2>
+          <p class="product__description">Комоды</p>
+          <p class="product__price">8 990₽</p>
+          <div class="product__sizes sizes">
+            <h3 class="sizes__title">Размеры</h3>
+            <div class="sizes__row">
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Ширина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Глубина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Высота</p>
+                <p class="sizes__dimention-value">77см</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="product__button button">Добавить в корзину</button>
+      </div>
+      <div class="product">
+        <button class="product__like">
+          <svg
+            width="19"
+            height="17"
+            viewBox="0 0 19 17"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.75 16L9.39645 16.3536C9.59171 16.5488 9.90829 16.5488 10.1036 16.3536L9.75 16ZM2.29442 8.54442L1.94086 8.89797H1.94086L2.29442 8.54442ZM8.54442 2.29442L8.19086 2.64797V2.64797L8.54442 2.29442ZM9.75 3.5L9.39645 3.85355C9.59171 4.04882 9.90829 4.04882 10.1036 3.85355L9.75 3.5ZM10.9556 2.29442L10.602 1.94086V1.94086L10.9556 2.29442ZM10.1036 15.6464L2.64797 8.19086L1.94086 8.89797L9.39645 16.3536L10.1036 15.6464ZM16.852 8.19086L9.39645 15.6464L10.1036 16.3536L17.5591 8.89797L16.852 8.19086ZM8.19086 2.64797L9.39645 3.85355L10.1036 3.14645L8.89797 1.94086L8.19086 2.64797ZM10.1036 3.85355L11.3091 2.64797L10.602 1.94086L9.39645 3.14645L10.1036 3.85355ZM14.0806 0.5C12.7759 0.5 11.5246 1.01829 10.602 1.94086L11.3091 2.64797C12.0442 1.91294 13.0411 1.5 14.0806 1.5V0.5ZM18 5.41942C18 6.45891 17.5871 7.45583 16.852 8.19086L17.5591 8.89797C18.4817 7.9754 19 6.72413 19 5.41942H18ZM19 5.41942C19 2.7025 16.7975 0.5 14.0806 0.5V1.5C16.2452 1.5 18 3.25478 18 5.41942H19ZM5.41942 1.5C6.45891 1.5 7.45583 1.91294 8.19086 2.64797L8.89797 1.94086C7.9754 1.01829 6.72413 0.5 5.41942 0.5V1.5ZM1.5 5.41942C1.5 3.25478 3.25478 1.5 5.41942 1.5V0.5C2.7025 0.5 0.5 2.7025 0.5 5.41942H1.5ZM2.64797 8.19086C1.91294 7.45583 1.5 6.45891 1.5 5.41942H0.5C0.5 6.72413 1.01829 7.9754 1.94086 8.89797L2.64797 8.19086Z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <img src="/img/dresser2.png" alt="Dresser" class="product__image" />
+        <div class="product__info">
+          <h2 class="product__name">Равенна-1 Light</h2>
+          <p class="product__description">Комоды</p>
+          <p class="product__price">14 990₽</p>
+          <div class="product__sizes sizes">
+            <h3 class="sizes__title">Размеры</h3>
+            <div class="sizes__row">
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Ширина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Глубина</p>
+                <p class="sizes__dimention-value">43см</p>
+              </div>
+              <i class="fa-solid fa-xmark"></i>
+              <div class="sizes__dimension">
+                <p class="sizes__dimention-name">Высота</p>
+                <p class="sizes__dimention-value">77см</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="product__button button">Добавить в корзину</button>
+      </div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/3736a1bedf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
